@@ -1,0 +1,42 @@
+<svg width="800" height="300" viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gabriel Martinez — Full-Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#101828"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#79c0ff"/>
+      <stop offset="1" stop-color="#388bfd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="300" fill="url(#bg)"/>
+  <rect width="800" height="300" fill="url(#glow)"/>
+
+  <g stroke="#58a6ff" fill="none" opacity="0.14">
+    <circle cx="712" cy="150" r="46" stroke-width="1.5"/>
+    <circle cx="712" cy="150" r="80" stroke-width="1.5"/>
+    <circle cx="712" cy="150" r="114" stroke-width="1.5"/>
+  </g>
+  <circle cx="712" cy="150" r="4.5" fill="#58a6ff" opacity="0.5"/>
+  <circle cx="770" cy="92" r="3" fill="#79c0ff" opacity="0.45"/>
+  <circle cx="648" cy="222" r="3" fill="#79c0ff" opacity="0.35"/>
+
+  <rect x="48" y="62" width="6" height="172" rx="3" fill="url(#bar)"/>
+
+  <text x="76" y="118" font-family="'Segoe UI','SF Pro Display',Roboto,Helvetica,Arial,sans-serif" font-size="60" font-weight="700" fill="#e6edf3" letter-spacing="0.5">Gabriel Martinez</text>
+  <text x="78" y="160" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="28" font-weight="600" fill="#58a6ff" letter-spacing="2">FULL-STACK DEVELOPER</text>
+  <text x="78" y="197" font-family="'Cascadia Code','SF Mono',Consolas,'Roboto Mono',monospace" font-size="20" fill="#8b949e">// .NET &#215; JavaScript &#183; end-to-end web apps</text>
+
+  <g transform="translate(78,220)">
+    <path d="M9 0C4 0 0 4 0 9c0 6.7 9 15 9 15s9-8.3 9-15c0-5-4-9-9-9zm0 12.5A3.5 3.5 0 1 1 9 5.5a3.5 3.5 0 0 1 0 7z" fill="#8b949e"/>
+    <text x="26" y="17" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="20" fill="#8b949e">Bogot&#225;, Colombia</text>
+  </g>
+
+  <rect x="0" y="298" width="800" height="2" fill="#58a6ff" opacity="0.25"/>
+</svg>
